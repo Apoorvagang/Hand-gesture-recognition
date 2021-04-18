@@ -8,8 +8,6 @@ import os
 import cv2
 
 
-sys.path.append(os.path.abspath("./model"))
-
 global  model
 
 app = Flask(__name__)
